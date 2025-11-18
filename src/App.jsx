@@ -1,8 +1,9 @@
 
 import './App.css'
-import Navbar from './components/layout/Header';
+import Navbar from './components/NavBar'
 import Home from './pages/Home'
-import Footer from './components/layout/Footer';
+import Footer from './components/layout/Footer'
+import ItemListContainer from './components/ItemListContainer'
 
 
 
@@ -12,6 +13,8 @@ function App() {
     <>
       <Navbar />
 
+      <ItemListContainer greeting="Bienvenido" />
+
       <Home />
 
       <Footer />  
@@ -20,4 +23,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
