@@ -1,6 +1,6 @@
 import "./styles.css";
 import CartWidget from "../common/cartwidget"
-import { NavLink } from "react-router";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
