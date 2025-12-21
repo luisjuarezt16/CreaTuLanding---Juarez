@@ -63,3 +63,7 @@ button:hover {
   background-color: white;
   color: black;
 }
+
+.btn-agregarcarrito {
+  margin-top: 10px;
+}

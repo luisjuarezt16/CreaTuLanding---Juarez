@@ -25,6 +25,9 @@ function Cards({ id, imagen, nombre, precio }) {
       <Link to={`/product/${id}`}>
         <button className="btn-detalle">Ver Detalle</button>
       </Link>
+
+      <button className="btn-agregarcarrito">Agregar a carrito</button>
+
     </div>
   );
 }
